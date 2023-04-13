@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Dashboard from './routes/Dashboard'
 
+import './assets/tailwind.css'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -13,7 +15,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <div className="mx-auto max-w-4xl px-8">
+    <div>
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>,
