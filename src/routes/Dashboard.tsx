@@ -57,32 +57,25 @@ export default () => {
         <div className="w-1/2 pl-20 pr-20">
           <h1 className="mb-2 text-xl font-bold text-[#A491D3]">About me</h1>
           <p className="text-left text-white">
-            Hi there! I'm a full-stack web developer who loves to tinker around
-            with code. When I'm not working on projects for school, you can most
-            of the time find me working on personal projects.
+            Hi there! I'm a full-stack web developer based in Flanders who loves
+            to tinker around with code. When I'm not working on projects for
+            school, you can most of the time find me working on personal
+            projects.
           </p>
           <p className="pt-2 text-white">
-            extra tiep werkt zodat ik het kan testen hoe ver de boundires deftig
-            staan en hoeveel ik zou willen toepen om het er deftig uit te laten
-            zien.
+            Besides coding, I have a huge passion for reptiles, with turtles and
+            tortoises in particular. At the moment, I have two Greek tortoises
+            and two musk turtles. The passion started actually when I was
+            little, we had a couple of yellow-bellied sliders. Those
+            unfortunately passed away after a couple of years, but the interest
+            in the animals stayed.
           </p>
           <p className="pt-2 text-white">
-            Dit is nog wat meer typ werk zodat ik kan blijven typen om te zien
-            hoe ver ik kan geraken todat het er niet mooi meer utiziet maar dat
-            kan nog efkes blijven duren want ik kan heeeeeeele veeeeel typen dat
-            is zo eeeeen heeel leeeuk werkje?
-          </p>
-          <p className="pt-2 text-white">
-            Dit is een onderdeel dat ik ook gewoon weer aan het voltypen ben om
-            te zien tot hoever ik kan gaan tot ik dit beu gezien ben hahaahahah
-            Want uiteindelijk moet ik dit ook echt gaan vullen met echte tekst
-            dat wordt nog een moeilijke opdracht vindt ik zelf toch echt wel.
-          </p>
-          <p className="pt-2 text-white">
-            Dit is nog een onderdeeltje dat ik eens ga voltypen om te kijken hoe
-            het er uiteindelijk zal uitzien of dit deftig gaat zijn of niet weet
-            ik dus ook totaal niet maar beter is dat een moeilijkheidsgraad die
-            ik overkom want anders kom ik ook niet verder.
+            When I'm not busy taking care of the animals, I like to play some
+            games with my friends. Those games can vary from time to time. At
+            one moment, I like to play single-player games rich in story, and at
+            another moment, I like to play massively multiplayer games. Besides
+            gaming, I like to read manga and learn new things in my spare time.
           </p>
         </div>
       </section>
@@ -95,12 +88,12 @@ export default () => {
             <h1 className="mb-2 text-left text-2xl font-bold text-[#A491D3]">
               Smart Terrarium
             </h1>
-            <p className="text-base text-white">
+            <p className="break-normal text-base text-white">
               Smart Terrarium is a terrarium that I modified with different
-              sensors and to which I added a heat lamp and a mist spray. All the
-              sensors and actuators are linked to a website where you can
-              monitor the values and activate and deactivate the actuators. It's
-              a project I made for my "Project One" for school.
+              sensors, as well as a heat lamp and a mist spray.All the sensors
+              and actuators are linked to a website where you can monitor the
+              values and activate and deactivate the actuators. It's an
+              individual project I made for my "Project One" for school.
             </p>
           </div>
           <div className="w-1/2 pl-20">
@@ -125,14 +118,16 @@ export default () => {
             <h1 className="mb-2 text-left text-2xl font-bold text-[#A491D3]">
               Team Project - Catch The Fish
             </h1>
-            <p className="text-white">
-              ik ben hier nog mee bezig ik weet nog niet welke tekst ik hier wil
-              gaan zetten omdat dit heel moeilijk typen is vindt je niet? Dit is
-              dus een project kheb kik da keer zomaar gemaakt want kwerdt
-              gedwongen. Want als ik het niet maakte kreeg ik slechte punten
-              waardoor ik dan poepeklets ging krijgen en dat willen we allemaal
-              niet. Deze tekst kan eindeloos blijven doorgaan totdat ik totaal
-              geen ideeën meer heb.
+            <p className="break-normal text-base text-white">
+              Catch The Fish is a game console where you can play three games.
+              The games are Zen, Simon Says, and Red vs. Blue. In the game Zen,
+              you need to hit the light up button as quickly as possible. In
+              Simon Says, you have to repeat the sequence for as long as
+              possible. Red vs. Blue is a team battle where the two teams need
+              to collect as as many points as possible in one minute. In this
+              project, I helped a lot with the design; besides that, I did a
+              part of the backend and frontend and helped build the hardware and
+              housing.
             </p>
           </div>
         </div>
@@ -141,14 +136,13 @@ export default () => {
             <h1 className="mb-2 text-left text-2xl font-bold text-[#A491D3]">
               Random Zoo Animal Generator
             </h1>
-            <p className="text-white">
-              ik ben hier nog mee bezig ik weet nog niet welke tekst ik hier wil
-              gaan zetten omdat dit heel moeilijk typen is vindt je niet? Dit is
-              dus een project kheb kik da keer zomaar gemaakt want kwerdt
-              gedwongen. Want als ik het niet maakte kreeg ik slechte punten
-              waardoor ik dan poepeklets ging krijgen en dat willen we allemaal
-              niet. Deze tekst kan eindeloos blijven doorgaan totdat ik totaal
-              geen ideeën meer heb.
+            <p className="break-normal text-base text-white">
+              The random zoo animal generator is a website where you can get
+              different random animals with each press of the button. Besides
+              those animals, you will also get some information and a map with
+              the country of origin. This website is a project I made
+              individually with the use of some micro-interactions and an API.
+              Besides that, I kept it as accessible as possible.
             </p>
           </div>
           <div className="w-1/2 pl-20">
