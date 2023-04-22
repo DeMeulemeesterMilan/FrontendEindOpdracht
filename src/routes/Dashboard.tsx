@@ -4,7 +4,7 @@ import '../assets/tailwind.css'
 export default () => {
   return (
     <div className="bg-gray-700">
-      <div className="w-auto overflow-hidden bg-[#A491D3]">
+      <div className="w-auto overflow-hidden bg-purple">
         <Link
           className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
           to="/"
@@ -14,7 +14,7 @@ export default () => {
         <div className="float-right flex justify-center">
           <Link
             className="px-4 py-3 text-center text-lg  text-gray-900 hover:underline focus:underline focus:outline-none"
-            to="#aboutme"
+            to="./About-me"
           >
             About me
           </Link>
@@ -34,57 +34,50 @@ export default () => {
       </div>
       <section className="flex h-screen w-full items-center justify-center">
         <div>
-          <h1 className="text-7xl font-bold text-[#A491D3]">Hi there,</h1>
-          <h1 className="text-7xl font-bold text-[#A491D3]">
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-7xl font-bold text-transparent motion-safe:animate-gradiantText">
+            Hi there,
+          </h1>
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-7xl font-bold text-transparent motion-safe:animate-gradiantText">
             I'm Milan De Meulemeester
           </h1>
-          <h1 className="mb-4 text-7xl font-bold text-[#A491D3]">
+          <h1 className="bg-[width:200%] mb-8 bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-7xl font-bold text-transparent motion-safe:animate-gradiantText">
             A full-stack web developer
           </h1>
-          <button className="rounded bg-[#48A9A6] px-4 py-2 font-bold text-gray-800 hover:bg-[#A491D3]">
-            Find out more
+          <button className="rounded bg-blue px-4 py-2 font-bold text-gray-800 hover:bg-[#A491D3]">
+            <Link to="#aboutme">Find out more</Link>
           </button>
         </div>
       </section>
-      <section id="aboutme" className="flex h-screen w-full items-center">
-        <div className="h-screen w-1/2">
+      <section
+        id="aboutme"
+        className="flex h-screen w-full items-center justify-center"
+      >
+        <div className="relative h-screen w-1/2 overflow-hidden">
           <img
-            className="h-screen w-full object-center"
+            className="absolute w-1/2 object-center"
             src="../src/img/AboutMePhoto.jpeg"
             alt="Photo of Milan with dog"
           />
         </div>
         <div className="w-1/2 pl-20 pr-20">
           <h1 className="mb-2 text-xl font-bold text-[#A491D3]">About me</h1>
-          <p className="text-left text-white">
+          <p className="mb-6 text-left text-white">
             Hi there! I'm a full-stack web developer based in Flanders who loves
             to tinker around with code. When I'm not working on projects for
             school, you can most of the time find me working on personal
             projects.
           </p>
-          <p className="pt-2 text-white">
-            Besides coding, I have a huge passion for reptiles, with turtles and
-            tortoises in particular. At the moment, I have two Greek tortoises
-            and two musk turtles. The passion started actually when I was
-            little, we had a couple of yellow-bellied sliders. Those
-            unfortunately passed away after a couple of years, but the interest
-            in the animals stayed.
-          </p>
-          <p className="pt-2 text-white">
-            When I'm not busy taking care of the animals, I like to play some
-            games with my friends. Those games can vary from time to time. At
-            one moment, I like to play single-player games rich in story, and at
-            another moment, I like to play massively multiplayer games. Besides
-            gaming, I like to read manga and learn new things in my spare time.
-          </p>
+          <button className="rounded bg-blue px-4 py-2 font-bold text-gray-800 hover:bg-[#A491D3]">
+            <Link to="./About-Me">Read more</Link>
+          </button>
         </div>
       </section>
       <section id="projects" className="mb-72 mt-20 h-screen w-full">
-        <div className="mb-20 flex h-20 items-center justify-center bg-white">
-          <h1 className="text-3xl font-bold text-gray-700">projects</h1>
+        <div className="mb-20 flex h-20 items-center justify-center">
+          <h1 className="text-5xl font-bold text-blue">projects</h1>
         </div>
         <div className="mx-40 mb-24 flex flex-row items-center justify-center">
-          <div className="w-1/2 border-r-2 border-[#48A9A6] pr-10">
+          <div className="w-1/2 border-r-2 border-blue pr-10">
             <h1 className="mb-2 text-left text-2xl font-bold text-[#A491D3]">
               Smart Terrarium
             </h1>
@@ -114,7 +107,7 @@ export default () => {
               alt="Photo of my Catch The Fish project"
             />
           </div>
-          <div className="w-1/2 border-l-2 border-[#48A9A6] pl-20">
+          <div className="w-1/2 border-l-2 border-blue pl-20">
             <h1 className="mb-2 text-left text-2xl font-bold text-[#A491D3]">
               Team Project - Catch The Fish
             </h1>
@@ -132,7 +125,7 @@ export default () => {
           </div>
         </div>
         <div className="mx-40 mb-24 flex flex-row items-center justify-center">
-          <div className="w-1/2 border-r-2 border-[#48A9A6] pr-10">
+          <div className="w-1/2 border-r-2 border-blue pr-10">
             <h1 className="mb-2 text-left text-2xl font-bold text-[#A491D3]">
               Random Zoo Animal Generator
             </h1>
@@ -154,14 +147,13 @@ export default () => {
             />
           </div>
         </div>
-        <div className="mt-20 h-20  bg-white"></div>
       </section>
       <section
         id="contact"
         className="flex h-screen w-full items-center justify-center pt-20"
       >
-        <div className="ml-40 w-1/2 border-r-2 border-[#48A9A6] pl-20">
-          <h1 className="mb-2 text-xl text-[#A491D3]">CONTACT</h1>
+        <div className="ml-40 w-1/2 border-r-2 border-blue pl-20">
+          <h1 className="mb-2 text-2xl text-[#A491D3]">CONTACT</h1>
           <h2 className="mb-4 text-lg text-white ">
             Thank you for viewing my portfolio. <br />I really hope you've
             enjoyed looking at my work!
@@ -211,7 +203,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-40 flex justify-center border-y-2 border-[#48A9A6] p-10">
+        <div className="mx-40 flex justify-center border-y-2 border-blue p-10">
           <Link
             className="mx-7 px-4 py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none"
             to="#aboutme"
