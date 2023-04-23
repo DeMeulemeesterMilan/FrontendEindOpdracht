@@ -47,8 +47,7 @@ export default () => {
         </div>
         <div className="w-1/2">
           <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text  text-left text-xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl md:text-5xl">
-            I'm Milan De Meulemeester, <br /> a tortoise fanatic and a
-            full-stack web developer.
+            Projects
           </h1>
         </div>
       </div>
@@ -56,44 +55,68 @@ export default () => {
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
           <div className="sm:w-1/2">
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
-              Passion
+              Smart Terrarium
             </h1>
             <p className="mb-4 break-normal text-base text-white sm:mb-0">
-              Besides coding, I have a huge passion for reptiles, with turtles
-              and tortoises in particular. At the moment, I have two Greek
-              tortoises and two musk turtles. The passion started actually when
-              I was little, we had a couple of yellow-bellied sliders. Those
-              unfortunately passed away after a couple of years, but the
-              interest in the animals stayed.
+              Smart Terrarium is a terrarium that I modified with different
+              sensors, as well as a heat lamp and a mist spray.All the sensors
+              and actuators are linked to a website where you can monitor the
+              values and activate and deactivate the actuators. It's an
+              individual project I made for my "Project One" for school.
             </p>
           </div>
           <div className="sm:pl-10 md:pl-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/TortoisesPhoto.jpg"
-              alt="Photo of my tortoises Speedy and Ronny"
+              src="../src/img/Project_SmartTerrarium.jpg"
+              alt="Photo of my Smart Terrarium project"
             />
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
           <div className="sm:w-1/2">
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
-              Hobbies
+              Team Project - Catch The Fish
             </h1>
             <p className="mb-4 break-normal text-base text-white sm:mb-0">
-              When I'm not busy taking care of the animals, I like to play some
-              games with my friends. Those games can vary from time to time. At
-              one moment, I like to play single-player games rich in story, and
-              at another moment, I like to play massively multiplayer games.
-              Besides gaming, I like to read manga and learn new things in my
-              spare time.
+              Catch The Fish is a game console where you can play three games.
+              The games are Zen, Simon Says, and Red vs. Blue. In the game Zen,
+              you need to hit the light up button as quickly as possible. In
+              Simon Says, you have to repeat the sequence for as long as
+              possible. Red vs. Blue is a team battle where the two teams need
+              to collect as as many points as possible in one minute. In this
+              project, I helped a lot with the design; besides that, I did a
+              part of the backend and frontend and helped build the hardware and
+              housing.
             </p>
           </div>
           <div className="sm:pr-10 md:pr-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/HobbiesPhoto.jpg"
-              alt="Photo of my hobbies gaming and reading manga"
+              src="../src/img/Project_CatchTheFish.jpg"
+              alt="Photo of my Catch The Fish project"
+            />
+          </div>
+        </div>
+        <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
+          <div className="sm:w-1/2">
+            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+              Random Zoo Animal Generator
+            </h1>
+            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+              The random zoo animal generator is a website where you can get
+              different random animals with each press of the button. Besides
+              those animals, you will also get some information and a map with
+              the country of origin. This website is a project I made
+              individually with the use of some micro-interactions and an API.
+              Besides that, I kept it as accessible as possible.
+            </p>
+          </div>
+          <div className="sm:pl-10 md:pl-20">
+            <img
+              className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
+              src="../src/img/Project_ZooAnimals.jpg"
+              alt="Photo of my Random Zoo Animal Generator project"
             />
           </div>
         </div>
