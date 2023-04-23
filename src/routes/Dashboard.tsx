@@ -32,19 +32,19 @@ export default () => {
           </Link>
         </div>
       </div>
-      <section className="mt-10 flex w-full items-center justify-center sm:h-screen">
+      <section className="mt-10 flex w-full items-center justify-center sm:h-96 lg:h-screen">
         <div>
-          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText lg:text-7xl">
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
             Hi there,
           </h1>
-          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText lg:text-7xl">
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
             I'm Milan De Meulemeester
           </h1>
-          <h1 className="bg-[width:200%] mb-8 bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText lg:text-7xl">
+          <h1 className="bg-[width:200%] mb-8 bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
             A full-stack web developer
           </h1>
           <Link
-            className="hidden rounded bg-blue px-2 py-1 font-bold text-gray-800 hover:bg-[#A491D3] sm:visible sm:px-4 sm:py-2"
+            className="invisible rounded bg-blue px-2 py-1 font-bold text-gray-800 hover:bg-[#A491D3] sm:visible sm:px-4 sm:py-2"
             to="#aboutme"
           >
             Find out more
@@ -77,14 +77,14 @@ export default () => {
           </div>
         </div>
       </section>
-      <section className="mt-12 w-full sm:mb-0 sm:mt-48">
+      <section className="mt-12 w-full sm:mb-0 sm:mt-24 md:mt-48">
         <div className="mb-10 flex h-20 items-center justify-center sm:mb-20">
           <h1 className="text-4xl font-bold text-blue sm:text-5xl">
             Featured projects
           </h1>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
-          <div className="border-blue pr-10 sm:w-1/2 sm:border-r-2">
+          <div className="border-blue pr-10 sm:w-1/2 lg:border-r-2">
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Smart Terrarium
             </h1>
@@ -105,7 +105,7 @@ export default () => {
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
-          <div className="border-blue sm:w-1/2 sm:border-l-2 sm:pl-10">
+          <div className="border-blue sm:w-1/2 sm:pl-5 md:pl-5 lg:border-l-2 lg:pl-10">
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Team Project - Catch The Fish
             </h1>
@@ -121,7 +121,7 @@ export default () => {
               housing.
             </p>
           </div>
-          <div className="mt-2 sm:mt-0 sm:pr-10 md:pr-20">
+          <div className="mt-2 sm:mt-0 sm:pr-10 lg:pr-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
               src="../src/img/Project_CatchTheFish.jpg"
@@ -130,7 +130,7 @@ export default () => {
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
-          <div className="border-blue sm:w-1/2 sm:border-r-2 sm:pr-10">
+          <div className="border-blue pr-10 sm:w-1/2 lg:border-r-2">
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Random Zoo Animal Generator
             </h1>
@@ -145,15 +145,15 @@ export default () => {
           </div>
           <div className="mt-2 sm:mt-0 sm:pl-10 md:pl-20">
             <img
-              className="h-68 w-68 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/Project_RandomZooAnimal.png"
+              className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
+              src="../src/img/Project_ZooAnimals.jpg"
               alt="Photo of my Random Zoo Animal Generator project"
             />
           </div>
         </div>
       </section>
-      <section className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
-        <div className="border-blue sm:ml-40 sm:w-1/2 sm:border-r-2 sm:pl-20">
+      <section className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 md:mt-20 lg:mx-40 lg:mt-40">
+        <div className="border-blue sm:border-r-2 sm:pr-10 md:pl-10">
           <h1 className="mb-2 text-xl text-[#A491D3] sm:text-2xl">CONTACT</h1>
           <h2 className="mb-4 text-lg text-white ">
             Thank you for viewing my portfolio. <br />I really hope you've
@@ -164,7 +164,7 @@ export default () => {
             a message.
           </p>
         </div>
-        <div className="sm:mr-40 sm:w-1/2 sm:pl-20 ">
+        <div className="sm:pl-20 md:mr-20">
           <div className="mb-4 flex items-center">
             <svg
               fill="#A491D3"
@@ -225,7 +225,7 @@ export default () => {
           </Link>
         </div>
         <div className="p-5 sm:pb-10 sm:pt-10 md:p-10">
-          <p className="text-xs text-white sm:ml-5 md:ml-2 lg:ml-32">
+          <p className="text-xs text-white lg:ml-32">
             Copyright © 2023 Milan De Meulemeester All Rights Reserved.
           </p>
         </div>
