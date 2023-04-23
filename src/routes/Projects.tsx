@@ -25,7 +25,7 @@ export default () => {
           </Link>
           <Link
             className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="./Projects"
+            to="#projects"
           >
             Projects
           </Link>
@@ -108,7 +108,7 @@ export default () => {
           </Link>
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="./Projects"
+            to="#projects"
           >
             Projects
           </Link>

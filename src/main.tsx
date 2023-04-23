@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Dashboard from './routes/Dashboard'
 import AboutMe from './routes/AboutMe'
+import Projects from './routes/Projects'
 
 import './assets/tailwind.css'
 
@@ -15,7 +16,12 @@ const router = createBrowserRouter([
   {
     path: '/About-me',
     element: <AboutMe/>
+  },
+  {
+    path: '/Projects',
+    element: <Projects />,
   }
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

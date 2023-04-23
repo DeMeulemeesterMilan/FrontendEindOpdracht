@@ -2,6 +2,13 @@ import { Link } from 'react-router-dom'
 import '../assets/tailwind.css'
 
 export default () => {
+  const handleScroll = () => {
+    const sectionId = document.getElementById('aboutme')
+    if (sectionId) {
+      sectionId.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <div className="bg-gray-700">
       <div className="w-auto overflow-hidden bg-[#A491D3]">
@@ -20,7 +27,7 @@ export default () => {
           </Link>
           <Link
             className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="#projects"
+            to="./Projects"
           >
             Projects
           </Link>
@@ -43,12 +50,12 @@ export default () => {
           <h1 className="bg-[width:200%] mb-8 bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
             A full-stack web developer
           </h1>
-          <Link
+          <button
+            onClick={handleScroll}
             className="invisible rounded bg-blue px-2 py-1 font-bold text-gray-800 hover:bg-[#A491D3] sm:visible sm:px-4 sm:py-2"
-            to="#aboutme"
           >
             Find out more
-          </Link>
+          </button>
         </div>
       </section>
       <section
@@ -207,13 +214,13 @@ export default () => {
         <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="#aboutme"
+            to="./About-me"
           >
             About me
           </Link>
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="#projects"
+            to="./Projects"
           >
             Projects
           </Link>
