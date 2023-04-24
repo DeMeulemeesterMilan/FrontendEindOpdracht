@@ -41,7 +41,7 @@ export default () => {
         <div className="sm:pr10 pr-5">
           <img
             className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-            src="../src/img/PhotoMilanWithSunset.jpg"
+            src="/img/PhotoMilanWithSunset.jpg"
             alt="Photo of Milan De Meulemeester with the sunset"
           />
         </div>
@@ -70,7 +70,7 @@ export default () => {
           <div className="sm:pl-10 md:pl-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/TortoisesPhoto.jpg"
+              src="/img/TortoisesPhoto.jpg"
               alt="Photo of my tortoises Speedy and Ronny"
             />
           </div>
@@ -92,7 +92,7 @@ export default () => {
           <div className="sm:pr-10 md:pr-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/HobbiesPhoto.jpg"
+              src="/img/HobbiesPhoto.jpg"
               alt="Photo of my hobbies gaming and reading manga"
             />
           </div>

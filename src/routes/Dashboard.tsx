@@ -66,7 +66,7 @@ export default () => {
           <div className="sm:pr10 pr-5">
             <img
               className="mb-5 h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/AboutMePhoto.jpeg"
+              src="/img/AboutMePhoto.jpeg"
               alt="Photo of Milan with dog"
             />
           </div>
@@ -106,7 +106,7 @@ export default () => {
           <div className="mt-2 sm:mt-0 sm:pl-10 md:pl-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/Project_SmartTerrarium.jpg"
+              src="/img/Project_SmartTerrarium.jpg"
               alt="Photo of my Smart Terrarium project"
             />
           </div>
@@ -131,7 +131,7 @@ export default () => {
           <div className="mt-2 sm:mt-0 sm:pr-10 lg:pr-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/Project_CatchTheFish.jpg"
+              src="/img/Project_CatchTheFish.jpg"
               alt="Photo of my Catch The Fish project"
             />
           </div>
@@ -153,7 +153,7 @@ export default () => {
           <div className="mt-2 sm:mt-0 sm:pl-10 md:pl-20">
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="../src/img/Project_ZooAnimals.jpg"
+              src="/img/Project_ZooAnimals.jpg"
               alt="Photo of my Random Zoo Animal Generator project"
             />
           </div>
