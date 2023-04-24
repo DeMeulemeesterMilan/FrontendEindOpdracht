@@ -19,7 +19,7 @@ export default () => {
         <div className="float-right flex justify-center">
           <Link
             className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="./About-me"
+            to="/About-me"
           >
             About me
           </Link>
@@ -37,19 +37,10 @@ export default () => {
           </Link>
         </div>
       </div>
-      <div className="md:mx-38 mx-5 mt-12 flex flex-row items-center justify-center sm:mx-5 sm:mt-24 md:mt-24 lg:mt-48">
-        <div className="sm:pr10 pr-5">
-          <img
-            className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-            src="../src/img/PhotoMilanWithSunset.jpg"
-            alt="Photo of Milan De Meulemeester with the sunset"
-          />
-        </div>
-        <div className="w-1/2">
-          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text  text-left text-xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl md:text-5xl">
-            Projects
-          </h1>
-        </div>
+      <div className="md:mx-38 mx-5 mb-5 mt-12 flex flex-row items-center justify-center sm:mx-5 sm:mt-24 md:mt-24 lg:mt-48">
+        <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text pb-2  text-left text-4xl font-bold text-transparent motion-safe:animate-gradiantText md:text-5xl lg:text-6xl">
+          Projects
+        </h1>
       </div>
       <section className="mt-12 w-full sm:mb-0 sm:mt-48">
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
@@ -64,6 +55,29 @@ export default () => {
               values and activate and deactivate the actuators. It's an
               individual project I made for my "Project One" for school.
             </p>
+            <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                html
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                CSS
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Javascript
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Socket.io
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                MySQL
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Python
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Flask
+              </p>
+            </div>
           </div>
           <div className="sm:pl-10 md:pl-20">
             <img
@@ -89,6 +103,29 @@ export default () => {
               part of the backend and frontend and helped build the hardware and
               housing.
             </p>
+            <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                C#
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                C++
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                MySQL
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                MQTT Broker
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                html
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                css
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Javascript
+              </p>
+            </div>
           </div>
           <div className="sm:pr-10 md:pr-20">
             <img
@@ -111,6 +148,26 @@ export default () => {
               individually with the use of some micro-interactions and an API.
               Besides that, I kept it as accessible as possible.
             </p>
+            <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                html
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Css
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Javascript
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                Azure
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                CosmosDB
+              </p>
+              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+                custom API
+              </p>
+            </div>
           </div>
           <div className="sm:pl-10 md:pl-20">
             <img
@@ -125,13 +182,13 @@ export default () => {
         <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="#aboutme"
+            to="/About-me"
           >
             About me
           </Link>
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="#projects"
+            to="/Projects"
           >
             Projects
           </Link>

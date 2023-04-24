@@ -19,13 +19,13 @@ export default () => {
         <div className="float-right flex justify-center">
           <Link
             className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="./About-me"
+            to="/About-me"
           >
             About me
           </Link>
           <Link
             className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="./Projects"
+            to="/Projects"
           >
             Projects
           </Link>
@@ -102,13 +102,13 @@ export default () => {
         <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="#aboutme"
+            to="/About-me"
           >
             About me
           </Link>
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="./Projects"
+            to="/Projects"
           >
             Projects
           </Link>

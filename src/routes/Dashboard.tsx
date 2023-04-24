@@ -21,13 +21,13 @@ export default () => {
         <div className="float-right flex justify-center">
           <Link
             className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="./About-me"
+            to="/About-me"
           >
             About me
           </Link>
           <Link
             className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="./Projects"
+            to="/Projects"
           >
             Projects
           </Link>
@@ -79,7 +79,7 @@ export default () => {
               projects.
             </p>
             <button className="rounded bg-blue px-4 py-2 font-bold text-gray-800 hover:bg-[#A491D3]">
-              <Link to="./About-Me">Read more</Link>
+              <Link to="/About-Me">Read more</Link>
             </button>
           </div>
         </div>
@@ -214,13 +214,13 @@ export default () => {
         <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="./About-me"
+            to="/About-me"
           >
             About me
           </Link>
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="./Projects"
+            to="/Projects"
           >
             Projects
           </Link>
