@@ -8,7 +8,7 @@ export default () => {
   }, [])
 
   return (
-    <div className="w-full bg-gray-700">
+    <div className="min-h-screen bg-darkPurple">
       <div className="w-auto overflow-hidden bg-[#A491D3]">
         <Link
           className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
@@ -56,25 +56,25 @@ export default () => {
               individual project I made for my "Project One" for school.
             </p>
             <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 html
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 CSS
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Javascript
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Socket.io
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 MySQL
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Python
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Flask
               </p>
             </div>
@@ -104,25 +104,25 @@ export default () => {
               housing.
             </p>
             <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 C#
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 C++
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 MySQL
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 MQTT Broker
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 html
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 css
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Javascript
               </p>
             </div>
@@ -149,22 +149,22 @@ export default () => {
               Besides that, I kept it as accessible as possible.
             </p>
             <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 html
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Css
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Javascript
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 Azure
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 CosmosDB
               </p>
-              <p className="rounded bg-blue bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
                 custom API
               </p>
             </div>
@@ -179,7 +179,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
+        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 opacity-75 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/About-me"

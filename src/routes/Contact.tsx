@@ -8,7 +8,7 @@ export default () => {
   }, [])
 
   return (
-    <div className="w-full bg-gray-700">
+    <div className="min-h-screen bg-darkPurple">
       <div className="w-auto overflow-hidden bg-[#A491D3]">
         <Link
           className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
@@ -37,13 +37,13 @@ export default () => {
           </Link>
         </div>
       </div>
-      <div className="md:mx-38 mx-5 mb-5 mt-12 flex flex-row items-center justify-center sm:mx-5 sm:mt-24 md:mt-24 lg:mt-32">
+      <div className="md:mx-38 mx-5 mb-5 mt-12 flex flex-row items-center justify-center sm:mx-5 sm:mt-24 md:mt-24">
         <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text pb-2  text-left text-4xl font-bold text-transparent motion-safe:animate-gradiantText md:text-5xl lg:text-6xl">
           Contact
         </h1>
       </div>
-      <section className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 md:mt-20 lg:mx-40 lg:mt-40">
-        <div className="border-blue sm:border-r-2 sm:pr-10 md:pl-10">
+      <section className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-20 sm:flex-row md:mx-10 md:mt-20 lg:mx-40 lg:mt-36">
+        <div className="border-pink opacity-75 sm:border-r-2 sm:pr-10 md:pl-10">
           <h2 className="mb-4 text-lg text-white ">
             Thank you for viewing my portfolio. <br />I really hope you've
             enjoyed looking at my work!
@@ -53,7 +53,7 @@ export default () => {
             a message.
           </p>
         </div>
-        <div className="sm:pl-20 md:mr-20">
+        <div className="mt-10 sm:mt-0 sm:pl-20 md:mr-20">
           <div className="mb-4 flex items-center">
             <svg
               fill="#A491D3"
@@ -93,27 +93,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
-          <Link
-            className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="/About-me"
-          >
-            About me
-          </Link>
-          <Link
-            className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="/Projects"
-          >
-            Projects
-          </Link>
-          <Link
-            className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="/Contact"
-          >
-            Contact
-          </Link>
-        </div>
-        <div className="p-5 sm:pb-10 sm:pt-10 md:p-10">
+        <div className="mx-5 mt-28 flex justify-between gap-4 border-t-2 border-pink p-5 opacity-75 sm:mt-0 sm:justify-center sm:p-10 sm:pb-10 sm:pt-10 md:mx-10 md:p-10 lg:mx-40">
           <p className="text-xs text-white sm:ml-5 md:ml-2 lg:ml-32">
             Copyright © 2023 Milan De Meulemeester All Rights Reserved.
           </p>

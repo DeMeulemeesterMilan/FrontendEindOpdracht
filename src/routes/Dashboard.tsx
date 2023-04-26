@@ -10,8 +10,8 @@ export default () => {
   }
 
   return (
-    <div className="bg-gray-700">
-      <div className="w-auto overflow-hidden bg-[#A491D3]">
+    <div className="min-h-screen bg-darkPurple">
+      <div className="w-auto overflow-hidden bg-purple">
         <Link
           className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
           to="/"
@@ -41,18 +41,18 @@ export default () => {
       </div>
       <section className="mt-10 flex w-full items-center justify-center sm:h-96 lg:h-screen">
         <div>
-          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-pink  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
             Hi there,
           </h1>
-          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-pink  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
             I'm Milan De Meulemeester
           </h1>
-          <h1 className="bg-[width:200%] mb-8 bg-gradient-to-r from-purple to-[#FF98B2]  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-pink bg-[length:200%]  bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:mb-8 sm:text-4xl lg:text-7xl">
             A full-stack web developer
           </h1>
           <button
             onClick={handleScroll}
-            className="invisible rounded bg-blue px-2 py-1 font-bold text-gray-800 hover:bg-[#A491D3] sm:visible sm:px-4 sm:py-2"
+            className="invisible rounded bg-pink bg-opacity-80 px-2 py-1 font-bold text-gray-800 hover:bg-purple sm:visible sm:px-4 sm:py-2"
           >
             Find out more
           </button>
@@ -62,7 +62,7 @@ export default () => {
         id="aboutme"
         className="mt-2 flex w-full items-center justify-center"
       >
-        <div className="md:mx-38 mx-5 mt-12 flex flex-col items-center justify-center sm:mx-5 sm:mt-24 sm:flex-row md:mt-24 lg:mt-48">
+        <div className="md:mx-38 mx-5 mt-12 flex flex-col items-center justify-center sm:mx-5 sm:mt-24 sm:flex-row md:mt-24 lg:mt-32 xl:mt-24">
           <div className="sm:pr10 pr-5">
             <img
               className="mb-5 h-52 w-52 rounded-md sm:h-72 sm:w-72"
@@ -71,14 +71,14 @@ export default () => {
             />
           </div>
           <div className="sm:w-1/2">
-            <h1 className="mb-2 text-xl font-bold text-[#A491D3]">About me</h1>
+            <h1 className="mb-2 text-xl font-bold text-purple">About me</h1>
             <p className="mb-6 text-left text-white">
               Hi there! I'm a full-stack web developer based in Flanders who
               loves to tinker around with code. When I'm not working on projects
               for school, you can most of the time find me working on personal
               projects.
             </p>
-            <button className="rounded bg-blue px-4 py-2 font-bold text-gray-800 hover:bg-[#A491D3]">
+            <button className="rounded bg-pink px-4 py-2 font-bold text-gray-800 opacity-80 hover:bg-purple">
               <Link to="/About-Me">Read more</Link>
             </button>
           </div>
@@ -86,13 +86,13 @@ export default () => {
       </section>
       <section className="mt-12 w-full sm:mb-0 sm:mt-24 md:mt-48">
         <div className="mb-10 flex h-20 items-center justify-center sm:mb-20">
-          <h1 className="text-4xl font-bold text-blue sm:text-5xl">
+          <h1 className="text-4xl font-bold text-pink opacity-80 sm:text-5xl">
             Featured projects
           </h1>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
-          <div className="border-blue pr-10 sm:w-1/2 lg:border-r-2">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+          <div className="border-pink pr-10 opacity-75 sm:w-1/2 lg:border-r-2">
+            <h1 className="mb-2 text-left text-xl font-bold text-purple sm:text-2xl">
               Smart Terrarium
             </h1>
             <p className="mb-4 break-normal text-base text-white sm:mb-0">
@@ -112,8 +112,8 @@ export default () => {
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
-          <div className="border-blue sm:w-1/2 sm:pl-5 md:pl-5 lg:border-l-2 lg:pl-10">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+          <div className="border-pink opacity-75 sm:w-1/2 sm:pl-5 md:pl-5 lg:border-l-2 lg:pl-10">
+            <h1 className="mb-2 text-left text-xl font-bold text-purple sm:text-2xl">
               Team Project - Catch The Fish
             </h1>
             <p className="mb-4 break-normal text-base text-white sm:mb-0">
@@ -137,8 +137,8 @@ export default () => {
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
-          <div className="border-blue pr-10 sm:w-1/2 lg:border-r-2">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+          <div className="border-pink pr-10 opacity-75 sm:w-1/2 lg:border-r-2">
+            <h1 className="mb-2 text-left text-xl font-bold text-purple sm:text-2xl">
               Random Zoo Animal Generator
             </h1>
             <p className="mb-4 break-normal text-base text-white sm:mb-0">
@@ -160,21 +160,21 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
+        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 opacity-75 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
           <Link
-            className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
+            className="py-3 text-center text-lg text-purple hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/About-me"
           >
             About me
           </Link>
           <Link
-            className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
+            className="py-3 text-center text-lg text-purple hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/Projects"
           >
             Projects
           </Link>
           <Link
-            className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
+            className="py-3 text-center text-lg text-purple hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/Contact"
           >
             Contact

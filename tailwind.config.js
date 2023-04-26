@@ -19,7 +19,8 @@ export default {
 
       colors: {
         purple: '#A491D3',
-        blue: '#668FD5'
+        darkPurple: '#2B2D42',
+        pink: '#FF98B2'
       },
     },
     plugins: [],

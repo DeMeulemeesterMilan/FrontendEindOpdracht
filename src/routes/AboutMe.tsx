@@ -8,7 +8,7 @@ export default () => {
   }, [])
 
   return (
-    <div className="w-full bg-gray-700">
+    <div className="min-h-screen bg-darkPurple">
       <div className="w-auto overflow-hidden bg-[#A491D3]">
         <Link
           className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
@@ -99,7 +99,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-blue p-10 sm:justify-center md:mx-10 lg:mx-40">
+        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 opacity-75 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/About-me"
