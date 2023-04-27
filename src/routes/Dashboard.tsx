@@ -13,10 +13,14 @@ export default () => {
     <div className="min-h-screen bg-darkPurple">
       <div className="w-auto overflow-hidden bg-purple">
         <Link
-          className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
+          className=" float-left px-4 py-2 text-center text-lg text-gray-900 hover:scale-125 focus:scale-125 focus:outline-none"
           to="/"
         >
-          Home
+          <img
+            src={'/LogoMilan.svg'}
+            alt="Logo of the portfolio"
+            className="w-10"
+          />
         </Link>
         <div className="float-right flex justify-center">
           <Link
@@ -72,15 +76,18 @@ export default () => {
           </div>
           <div className="sm:w-1/2">
             <h1 className="mb-2 text-xl font-bold text-purple">About me</h1>
-            <p className="mb-6 text-left text-white">
+            <p className="mb-6 text-left text-customWhite">
               Hi there! I'm a full-stack web developer based in Flanders who
               loves to tinker around with code. When I'm not working on projects
               for school, you can most of the time find me working on personal
               projects.
             </p>
-            <button className="rounded bg-pink px-4 py-2 font-bold text-gray-800 opacity-80 hover:bg-purple">
-              <Link to="/About-Me">Read more</Link>
-            </button>
+            <Link
+              className="rounded bg-pink px-4 py-2 font-bold text-gray-800 opacity-80 hover:bg-purple"
+              to="/About-Me"
+            >
+              Read more
+            </Link>
           </div>
         </div>
       </section>
@@ -91,11 +98,11 @@ export default () => {
           </h1>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
-          <div className="border-pink pr-10 opacity-75 sm:w-1/2 lg:border-r-2">
+          <div className="border-pink pr-10 sm:w-1/2 lg:border-r-2">
             <h1 className="mb-2 text-left text-xl font-bold text-purple sm:text-2xl">
               Smart Terrarium
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               Smart Terrarium is a terrarium that I modified with different
               sensors, as well as a heat lamp and a mist spray.All the sensors
               and actuators are linked to a website where you can monitor the
@@ -112,11 +119,11 @@ export default () => {
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
-          <div className="border-pink opacity-75 sm:w-1/2 sm:pl-5 md:pl-5 lg:border-l-2 lg:pl-10">
+          <div className="border-pink sm:w-1/2 sm:pl-5 md:pl-5 lg:border-l-2 lg:pl-10">
             <h1 className="mb-2 text-left text-xl font-bold text-purple sm:text-2xl">
               Team Project - Catch The Fish
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               Catch The Fish is a game console where you can play three games.
               The games are Zen, Simon Says, and Red vs. Blue. In the game Zen,
               you need to hit the light up button as quickly as possible. In
@@ -137,11 +144,11 @@ export default () => {
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
-          <div className="border-pink pr-10 opacity-75 sm:w-1/2 lg:border-r-2">
+          <div className="border-pink pr-10 sm:w-1/2 lg:border-r-2">
             <h1 className="mb-2 text-left text-xl font-bold text-purple sm:text-2xl">
               Random Zoo Animal Generator
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               The random zoo animal generator is a website where you can get
               different random animals with each press of the button. Besides
               those animals, you will also get some information and a map with
@@ -160,7 +167,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 opacity-75 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
+        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-purple hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/About-me"
@@ -181,8 +188,8 @@ export default () => {
           </Link>
         </div>
         <div className="p-5 sm:pb-10 sm:pt-10 md:p-10">
-          <p className="text-xs text-white lg:ml-32">
-            Copyright © 2023 Milan De Meulemeester All Rights Reserved.
+          <p className="text-xs text-customWhite lg:ml-32">
+            Copyright © 2023 Milan De Meulemeester.
           </p>
         </div>
       </footer>

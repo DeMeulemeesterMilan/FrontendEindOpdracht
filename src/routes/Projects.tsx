@@ -11,10 +11,14 @@ export default () => {
     <div className="min-h-screen bg-darkPurple">
       <div className="w-auto overflow-hidden bg-[#A491D3]">
         <Link
-          className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
+          className=" float-left px-4 py-2 text-center text-lg text-gray-900 hover:scale-125 focus:scale-125 focus:outline-none"
           to="/"
         >
-          Home
+          <img
+            src={'/LogoMilan.svg'}
+            alt="Logo of the portfolio"
+            className="w-10"
+          />
         </Link>
         <div className="float-right flex justify-center">
           <Link
@@ -48,7 +52,7 @@ export default () => {
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Smart Terrarium
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               Smart Terrarium is a terrarium that I modified with different
               sensors, as well as a heat lamp and a mist spray.All the sensors
               and actuators are linked to a website where you can monitor the
@@ -56,25 +60,25 @@ export default () => {
               individual project I made for my "Project One" for school.
             </p>
             <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 html
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 CSS
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Javascript
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Socket.io
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 MySQL
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Python
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Flask
               </p>
             </div>
@@ -92,7 +96,7 @@ export default () => {
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Team Project - Catch The Fish
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               Catch The Fish is a game console where you can play three games.
               The games are Zen, Simon Says, and Red vs. Blue. In the game Zen,
               you need to hit the light up button as quickly as possible. In
@@ -104,25 +108,25 @@ export default () => {
               housing.
             </p>
             <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 C#
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 C++
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 MySQL
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 MQTT Broker
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 html
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 css
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Javascript
               </p>
             </div>
@@ -140,7 +144,7 @@ export default () => {
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Random Zoo Animal Generator
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               The random zoo animal generator is a website where you can get
               different random animals with each press of the button. Besides
               those animals, you will also get some information and a map with
@@ -149,22 +153,22 @@ export default () => {
               Besides that, I kept it as accessible as possible.
             </p>
             <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 html
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Css
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Javascript
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 Azure
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 CosmosDB
               </p>
-              <p className="rounded bg-pink bg-opacity-50 px-4 py-2 text-sm font-bold text-gray-900">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
                 custom API
               </p>
             </div>
@@ -179,7 +183,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 opacity-75 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
+        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/About-me"
@@ -200,8 +204,8 @@ export default () => {
           </Link>
         </div>
         <div className="p-5 sm:pb-10 sm:pt-10 md:p-10">
-          <p className="text-xs text-white sm:ml-5 md:ml-2 lg:ml-32">
-            Copyright © 2023 Milan De Meulemeester All Rights Reserved.
+          <p className="text-xs text-customWhite sm:ml-5 md:ml-2 lg:ml-32">
+            Copyright © 2023 Milan De Meulemeester.
           </p>
         </div>
       </footer>

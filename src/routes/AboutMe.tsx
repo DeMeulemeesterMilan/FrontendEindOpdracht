@@ -11,10 +11,14 @@ export default () => {
     <div className="min-h-screen bg-darkPurple">
       <div className="w-auto overflow-hidden bg-[#A491D3]">
         <Link
-          className=" float-left px-4 py-3 text-center text-lg text-gray-900 hover:underline"
+          className=" float-left px-4 py-2 text-center text-lg text-gray-900 hover:scale-125 focus:scale-125 focus:outline-none"
           to="/"
         >
-          Home
+          <img
+            src={'/LogoMilan.svg'}
+            alt="Logo of the portfolio"
+            className="w-10"
+          />
         </Link>
         <div className="float-right flex justify-center">
           <Link
@@ -58,7 +62,7 @@ export default () => {
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Passion
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               Besides coding, I have a huge passion for reptiles, with turtles
               and tortoises in particular. At the moment, I have two Greek
               tortoises and two musk turtles. The passion started actually when
@@ -80,7 +84,7 @@ export default () => {
             <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
               Hobbies
             </h1>
-            <p className="mb-4 break-normal text-base text-white sm:mb-0">
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               When I'm not busy taking care of the animals, I like to play some
               games with my friends. Those games can vary from time to time. At
               one moment, I like to play single-player games rich in story, and
@@ -99,7 +103,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 opacity-75 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
+        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
           <Link
             className="py-3 text-center text-lg text-[#A491D3] hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
             to="/About-me"
@@ -120,8 +124,8 @@ export default () => {
           </Link>
         </div>
         <div className="p-5 sm:pb-10 sm:pt-10 md:p-10">
-          <p className="text-xs text-white sm:ml-5 md:ml-2 lg:ml-32">
-            Copyright © 2023 Milan De Meulemeester All Rights Reserved.
+          <p className="text-xs text-customWhite sm:ml-5 md:ml-2 lg:ml-32">
+            Copyright © 2023 Milan De Meulemeester.
           </p>
         </div>
       </footer>
