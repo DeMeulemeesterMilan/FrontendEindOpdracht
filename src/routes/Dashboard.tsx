@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../assets/tailwind.css'
+import WebsiteHeader from '../components/websiteHeader'
+import WebsiteFooter from '../components/WebsiteFooter'
 
 export default () => {
   const handleScroll = () => {
@@ -11,38 +13,7 @@ export default () => {
 
   return (
     <div className="min-h-screen bg-darkPurple">
-      <div className="w-auto overflow-hidden bg-purple">
-        <Link
-          className=" float-left px-4 py-2 text-center text-lg text-gray-900 hover:scale-125 focus:scale-125 focus:outline-none"
-          to="/"
-        >
-          <img
-            src={'/LogoMilan.svg'}
-            alt="Logo of the portfolio"
-            className="w-10"
-          />
-        </Link>
-        <div className="float-right flex justify-center">
-          <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="/About-me"
-          >
-            About me
-          </Link>
-          <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="/Projects"
-          >
-            Projects
-          </Link>
-          <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="/Contact"
-          >
-            Contact
-          </Link>
-        </div>
-      </div>
+      <WebsiteHeader />
       <section className="mt-10 flex w-full items-center justify-center sm:h-96 lg:h-screen">
         <div>
           <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-pink  bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
@@ -68,11 +39,24 @@ export default () => {
       >
         <div className="md:mx-38 mx-5 mt-12 flex flex-col items-center justify-center sm:mx-5 sm:mt-24 sm:flex-row md:mt-24 lg:mt-32 xl:mt-24">
           <div className="sm:pr10 pr-5">
-            <img
-              className="mb-5 h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="/img/AboutMePhoto.jpeg"
-              alt="Photo of Milan with dog"
-            />
+            <picture className="mb-5 h-52 w-52 rounded-md sm:h-72 sm:w-72">
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/AboutMePhoto.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/AboutMePhoto.jpeg"
+                type="image/jpeg"
+              />
+
+              <img
+                className="mb-5 h-52 w-52 rounded-md sm:h-72 sm:w-72"
+                srcSet="/img/AboutMePhoto.jpeg"
+                alt="Photo of Milan with dog"
+              />
+            </picture>
           </div>
           <div className="sm:w-1/2">
             <h1 className="mb-2 text-xl font-bold text-purple">About me</h1>
@@ -111,11 +95,24 @@ export default () => {
             </p>
           </div>
           <div className="mt-2 sm:mt-0 sm:pl-10 md:pl-20">
-            <img
-              className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="/img/Project_SmartTerrarium.jpg"
-              alt="Photo of my Smart Terrarium project"
-            />
+            <picture className="h-52 w-52 rounded-md sm:h-72 sm:w-72">
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_SmartTerrarium.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_SmartTerrarium.jpg"
+                type="image/jpg"
+              />
+
+              <img
+                className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
+                src="/img/Project_SmartTerrarium.jpg"
+                alt="Photo of my Smart Terrarium project"
+              />
+            </picture>
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
@@ -136,11 +133,24 @@ export default () => {
             </p>
           </div>
           <div className="mt-2 sm:mt-0 sm:pr-10 lg:pr-20">
-            <img
-              className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="/img/Project_CatchTheFish.jpg"
-              alt="Photo of my Catch The Fish project"
-            />
+            <picture className="h-52 w-52 rounded-md sm:h-72 sm:w-72">
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_CatchTheFish.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_CatchTheFish.jpg"
+                type="image/jpg"
+              />
+
+              <img
+                className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
+                src="/img/Project_CatchTheFish.jpg"
+                alt="Photo of my Catch The Fish project"
+              />
+            </picture>
           </div>
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
@@ -158,41 +168,28 @@ export default () => {
             </p>
           </div>
           <div className="mt-2 sm:mt-0 sm:pl-10 md:pl-20">
-            <img
-              className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="/img/Project_ZooAnimals.jpg"
-              alt="Photo of my Random Zoo Animal Generator project"
-            />
+            <picture className="h-52 w-52 rounded-md sm:h-72 sm:w-72">
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_ZooAnimals.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_ZooAnimals.jpg"
+                type="image/jpg"
+              />
+
+              <img
+                className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
+                src="/img/Project_ZooAnimals.jpg"
+                alt="Photo of my Random Zoo Animal Generator project"
+              />
+            </picture>
           </div>
         </div>
       </section>
-      <footer>
-        <div className="mx-5 flex justify-between gap-4 border-y-2 border-pink p-5 sm:justify-center sm:p-10 md:mx-10 lg:mx-40">
-          <Link
-            className="py-3 text-center text-lg text-purple hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="/About-me"
-          >
-            About me
-          </Link>
-          <Link
-            className="py-3 text-center text-lg text-purple hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="/Projects"
-          >
-            Projects
-          </Link>
-          <Link
-            className="py-3 text-center text-lg text-purple hover:underline focus:underline focus:outline-none sm:mx-7 sm:px-4"
-            to="/Contact"
-          >
-            Contact
-          </Link>
-        </div>
-        <div className="p-5 sm:pb-10 sm:pt-10 md:p-10">
-          <p className="text-xs text-customWhite lg:ml-32">
-            Copyright © 2023 Milan De Meulemeester.
-          </p>
-        </div>
-      </footer>
+      <WebsiteFooter />
     </div>
   )
 }

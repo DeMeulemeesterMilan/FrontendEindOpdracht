@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../assets/tailwind.css'
 import { useEffect } from 'react'
+import WebsiteHeader from '../components/websiteHeader'
 
 export default () => {
   useEffect(() => {
@@ -9,38 +10,7 @@ export default () => {
 
   return (
     <div className="min-h-screen bg-darkPurple">
-      <div className="w-auto overflow-hidden bg-[#A491D3]">
-        <Link
-          className=" float-left px-4 py-2 text-center text-lg text-gray-900 hover:scale-125 focus:scale-125 focus:outline-none"
-          to="/"
-        >
-          <img
-            src={'/LogoMilan.svg'}
-            alt="Logo of the portfolio"
-            className="w-10"
-          />
-        </Link>
-        <div className="float-right flex justify-center">
-          <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="/About-me"
-          >
-            About me
-          </Link>
-          <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="/Projects"
-          >
-            Projects
-          </Link>
-          <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
-            to="/Contact"
-          >
-            Contact
-          </Link>
-        </div>
-      </div>
+      <WebsiteHeader />
       <div className="md:mx-38 mx-5 mb-5 mt-12 flex flex-row items-center justify-center sm:mx-5 sm:mt-24 md:mt-24 xl:mt-32">
         <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text pb-2  text-left text-4xl font-bold text-transparent motion-safe:animate-gradiantText md:text-5xl lg:text-6xl">
           Contact
