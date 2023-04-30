@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../assets/tailwind.css'
 import { useEffect } from 'react'
-import WebsiteHeader from '../components/websiteHeader'
+import WebsiteHeader from '../components/WebsiteHeader'
 
 export default () => {
   useEffect(() => {

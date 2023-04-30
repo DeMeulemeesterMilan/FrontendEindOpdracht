@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import '../assets/tailwind.css'
-import WebsiteHeader from '../components/websiteHeader'
+import WebsiteHeader from '../components/WebsiteHeader'
 import WebsiteFooter from '../components/WebsiteFooter'
 
 export default () => {
