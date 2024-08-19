@@ -62,7 +62,7 @@ export default () => {
           </Link>
           <Link
             className="flex items-center"
-            to="https://github.com/HungryParrot"
+            to="https://github.com/DeMeulemeesterMilan"
             target="_blank"
           >
             <svg

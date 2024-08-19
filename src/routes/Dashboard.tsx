@@ -12,7 +12,7 @@ export default () => {
   }
 
   return (
-    <div className="min-h-screen bg-darkPurple">
+    <div className="min-h-screen bg-customWhite dark:bg-darkPurple">
       <WebsiteHeader />
       <section className="mt-10 flex w-full items-center justify-center sm:h-96 lg:h-screen">
         <div>

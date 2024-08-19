@@ -17,19 +17,19 @@ export default () => {
         </Link>
         <div className="float-right flex justify-center">
           <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
+            className="px-2 py-3 text-center font-medium text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
             to="/About-me"
           >
             About me
           </Link>
           <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
+            className="px-2 py-3 text-center font-medium text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
             to="/Projects"
           >
             Projects
           </Link>
           <Link
-            className="px-2 py-3 text-center text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
+            className="px-2 py-3 text-center font-medium text-lg text-gray-900  hover:underline focus:underline focus:outline-none sm:px-4"
             to="/Contact"
           >
             Contact
