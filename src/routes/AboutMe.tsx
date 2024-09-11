@@ -33,7 +33,7 @@ export default () => {
           </picture>
         </div>
         <div className="w-1/2">
-          <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text  text-left text-xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl md:text-5xl">
+          <h1 className="bg-[width:200%] bg-gradient-to-r from-vistaBlue to-pink bg-[length:200%] bg-clip-text  text-left text-xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl md:text-5xl">
             I'm Milan De Meulemeester, <br /> a tortoise fanatic and a
             full-stack web developer.
           </h1>
@@ -42,7 +42,7 @@ export default () => {
       <section className="mt-12 w-full sm:mb-0 sm:mt-48">
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
           <div className="sm:w-1/2">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+            <h1 className="mb-2 text-left text-xl font-bold text-vistaBlue sm:text-2xl">
               Passion
             </h1>
             <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
@@ -77,7 +77,7 @@ export default () => {
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
           <div className="sm:w-1/2">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+            <h1 className="mb-2 text-left text-xl font-bold text-vistaBlue sm:text-2xl">
               Hobbies
             </h1>
             <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">

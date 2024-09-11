@@ -18,7 +18,7 @@ export default {
       },
 
       colors: {
-        purple: '#A491D3',
+        vistaBlue: '#8390FA',
         darkPurple: '#2B2D42',
         pink: '#FF98B2',
         customWhite: '#F4F4F9',

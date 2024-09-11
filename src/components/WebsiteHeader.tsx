@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default () => {
   return (
     <header>
-      <div className="w-auto overflow-hidden bg-purple">
+      <div className="w-auto overflow-hidden bg-vistaBlue">
         <Link
           className="float-left px-4 py-2 text-center text-lg text-gray-900 transition duration-150 ease-out hover:scale-125 hover:ease-in focus:scale-125 focus:outline-none"
           to="/"

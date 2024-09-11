@@ -12,7 +12,7 @@ export default () => {
     <div className="min-h-screen bg-darkPurple">
       <WebsiteHeader />
       <div className="md:mx-38 mx-5 mb-5 mt-12 flex flex-row items-center justify-center sm:mx-5 sm:mt-24 md:mt-24 xl:mt-32">
-        <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text pb-2  text-left text-4xl font-bold text-transparent motion-safe:animate-gradiantText md:text-5xl lg:text-6xl">
+        <h1 className="bg-[width:200%] bg-gradient-to-r from-vistaBlue to-pink bg-[length:200%] bg-clip-text pb-2  text-left text-4xl font-bold text-transparent motion-safe:animate-gradiantText md:text-5xl lg:text-6xl">
           Contact
         </h1>
       </div>

@@ -12,44 +12,42 @@ export default () => {
     <div className="min-h-screen bg-darkPurple">
       <WebsiteHeader />
       <div className="md:mx-38 mx-5 mb-5 mt-12 flex flex-row items-center justify-center sm:mx-5 sm:mt-24 md:mt-24 lg:mt-48">
-        <h1 className="bg-[width:200%] bg-gradient-to-r from-purple to-[#FF98B2] bg-[length:200%] bg-clip-text pb-2  text-left text-4xl font-bold text-transparent motion-safe:animate-gradiantText md:text-5xl lg:text-6xl">
+        <h1 className="bg-[width:200%] bg-gradient-to-r from-vistaBlue to-pink bg-[length:200%] bg-clip-text pb-2  text-left text-4xl font-bold text-transparent motion-safe:animate-gradiantText md:text-5xl lg:text-6xl">
           Projects
         </h1>
       </div>
       <section className="mt-12 w-full sm:mb-0 sm:mt-48">
-        <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
+      <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40"> 
           <div className="sm:w-1/2">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
-              Smart Terrarium
+            <h1 className="mb-2 text-left text-xl font-bold text-vistaBlue sm:text-2xl">
+            bachelor's thesis - PictoSync 
             </h1>
             <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
-              Smart Terrarium is a terrarium that I modified with different
-              sensors, as well as a heat lamp and a mist spray.All the sensors
-              and actuators are linked to a website where you can monitor the
-              values and activate and deactivate the actuators. It's an
-              individual project I made for my "Project One" for school.
+            PictoSync is an exciting real-time multiplayer web game that pits two teams against each other in a race to guess the word the opposing team has selected. 
+            In this fast-paced game, each round begins with one team choosing a word that the other team must guess. 
+            The twist? An AI-generated picture, crafted from the chosen word, serves as the only clue!
             </p>
             <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
               <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
-                html
+                Vue
               </p>
               <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
-                CSS
+                Tailwind css
               </p>
               <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
-                Javascript
+                Typescript
               </p>
               <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
-                Socket.io
+                NestJS
               </p>
               <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
-                MySQL
+                MongoDB
               </p>
               <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
-                Python
+                Docker
               </p>
               <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
-                Flask
+                GraphQL
               </p>
             </div>
           </div>
@@ -57,18 +55,18 @@ export default () => {
             <picture className="h-52 w-52 rounded-md sm:h-72 sm:w-72">
               <source
                 media="(min-width: 320px)"
-                srcSet="/img/Project_SmartTerrarium.webp"
+                srcSet="/img/Project_PictoSync.webp"
                 type="image/webp"
               />
               <source
                 media="(min-width: 320px)"
-                srcSet="/img/Project_SmartTerrarium.jpg"
+                srcSet="/img/Project_PictoSync.jpg"
                 type="image/jpg"
               />
 
               <img
                 className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-                src="/img/Project_SmartTerrarium.jpg"
+                src="/img/Project_PictoSync.png"
                 alt="Photo of my Smart Terrarium project"
               />
             </picture>
@@ -76,7 +74,7 @@ export default () => {
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
           <div className="sm:w-1/2">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+            <h1 className="mb-2 text-left text-xl font-bold text-vistaBlue sm:text-2xl">
               Team Project - Catch The Fish
             </h1>
             <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
@@ -137,7 +135,7 @@ export default () => {
         </div>
         <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row md:mx-10 lg:mx-40">
           <div className="sm:w-1/2">
-            <h1 className="mb-2 text-left text-xl font-bold text-[#A491D3] sm:text-2xl">
+            <h1 className="mb-2 text-left text-xl font-bold text-vistaBlue sm:text-2xl">
               Random Zoo Animal Generator
             </h1>
             <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
@@ -186,6 +184,63 @@ export default () => {
                 className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
                 src="/img/Project_ZooAnimals.jpg"
                 alt="Photo of my Random Zoo Animal Generator project"
+              />
+            </picture>
+          </div>
+        </div>
+        <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
+          <div className="sm:w-1/2">
+            <h1 className="mb-2 text-left text-xl font-bold text-vistaBlue sm:text-2xl">
+            Smart Terrarium
+            </h1>
+            <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
+            Smart Terrarium is a terrarium that I modified with different
+              sensors, as well as a heat lamp and a mist spray.All the sensors
+              and actuators are linked to a website where you can monitor the
+              values and activate and deactivate the actuators. It's an
+              individual project I made for my "Project One" for school.
+            </p>
+            <div className="mt-2 hidden gap-1 xl:flex xl:flex-row">
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
+                html
+              </p>
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
+                CSS
+              </p>
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
+                Javascript
+              </p>
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
+                Socket.io
+              </p>
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
+                MySQL
+              </p>
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
+                Python
+              </p>
+              <p className="rounded bg-pink bg-opacity-60 px-4 py-2 text-sm font-bold text-customBlack">
+                Flask
+              </p>
+            </div>
+          </div>
+          <div className="sm:pr-10 md:pr-20">
+          <picture className="h-52 w-52 rounded-md sm:h-72 sm:w-72">
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_SmartTerrarium.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcSet="/img/Project_SmartTerrarium.jpg"
+                type="image/jpg"
+              />
+
+              <img
+                className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
+                src="/img/Project_SmartTerrarium.jpg"
+                alt="Photo of my Smart Terrarium project"
               />
             </picture>
           </div>
