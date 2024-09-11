@@ -4,17 +4,10 @@ import WebsiteHeader from '../components/WebsiteHeader'
 import WebsiteFooter from '../components/WebsiteFooter'
 
 export default () => {
-  const handleScroll = () => {
-    const sectionId = document.getElementById('aboutme')
-    if (sectionId) {
-      sectionId.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
-
   return (
     <div className="min-h-screen  bg-darkPurple">
       <WebsiteHeader />
-      <section className="mt-10 flex w-full items-center justify-center sm:h-96 lg:h-screen">
+      <section className="mt-10 flex w-full items-center justify-center sm:h-96 lg:h-screen lg:mt-0">
         <div>
           <h1 className="bg-[width:200%] bg-gradient-to-r from-vistaBlue to-pink bg-[length:200%] bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:text-4xl lg:text-7xl">
             Hi there,
@@ -25,12 +18,8 @@ export default () => {
           <h1 className="bg-[width:200%] bg-gradient-to-r from-vistaBlue to-pink bg-[length:200%]  bg-clip-text text-2xl font-bold text-transparent motion-safe:animate-gradiantText sm:mb-8 sm:text-4xl lg:text-7xl">
             A full-stack web developer
           </h1>
-          <button
-            onClick={handleScroll}
-            className="invisible rounded bg-pink bg-opacity-80 px-2 py-1 font-bold text-gray-800 hover:bg-vistaBlue sm:visible sm:px-4 sm:py-2"
-          >
-            Find out more
-          </button>
+          <a download className='rounded flex w-36 justify-center bg-pink bg-opacity-80 px-2 py-1 hover:bg-vistaBlue sm:visible sm:px-4 sm:py-2' href="/Milan_De-Meulemeester_cv.pdf"><p className='font-bold text-gray-800'>
+            Download cv</p></a>
         </div>
       </section>
       <section
@@ -42,18 +31,18 @@ export default () => {
             <picture className="mb-5 h-52 w-52 rounded-md sm:h-72 sm:w-72">
               <source
                 media="(min-width: 320px)"
-                srcSet="/img/AboutMePhoto.webp"
+                srcSet="/img/Milan_DeMeulemeester_Photo.webp"
                 type="image/webp"
               />
               <source
                 media="(min-width: 320px)"
-                srcSet="/img/AboutMePhoto.jpeg"
+                srcSet="/img/Milan_DeMeulemeester_Photo.jpeg"
                 type="image/jpeg"
               />
 
               <img
                 className="mb-5 h-52 w-52 rounded-md sm:h-72 sm:w-72"
-                srcSet="/img/AboutMePhoto.jpeg"
+                srcSet="/img/Milan_DeMeulemeester_Photo.jpeg"
                 alt="Photo of Milan with dog"
               />
             </picture>

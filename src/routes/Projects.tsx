@@ -72,7 +72,7 @@ export default () => {
             </picture>
           </div>
         </div>
-        <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40">
+        <div className="mx-5 mb-12 flex flex-col items-center justify-center sm:mb-24 sm:flex-row-reverse md:mx-10 lg:mx-40 ">
           <div className="sm:w-1/2">
             <h1 className="mb-2 text-left text-xl font-bold text-vistaBlue sm:text-2xl">
               Team Project - Catch The Fish

@@ -79,7 +79,7 @@ export default () => {
         </div>
       </section>
       <footer>
-        <div className="mx-5 mt-28 flex justify-between gap-4 border-t-2 border-pink p-5 sm:mt-0 sm:justify-center sm:p-10 sm:pb-10 sm:pt-10 md:mx-10 md:p-10 lg:mx-40 xl:mt-80">
+        <div className="mx-5 mt-28 flex justify-between gap-4 border-t-2 border-pink p-5 sm:mt-0 sm:justify-center sm:p-10 sm:pb-10 sm:pt-10 md:mx-10 md:p-10 lg:mx-40 xl:mt-52">
           <p className="text-xs text-customWhite sm:ml-5 md:ml-2 lg:ml-32">
             Copyright © 2023 Milan De Meulemeester.
           </p>

@@ -16,18 +16,18 @@ export default () => {
           <picture className="h-52 w-52 rounded-md sm:h-72 sm:w-72">
             <source
               media="(min-width: 320px)"
-              srcSet="/img/PhotoMilanWithSunset.webp"
+              srcSet="/img/Milan_DeMeulemeester_Photo.webp"
               type="image/webp"
             />
             <source
               media="(min-width: 320px)"
-              srcSet="/img/PhotoMilanWithSunset.jpg"
+              srcSet="/img/Milan_DeMeulemeester_Photo.jpg"
               type="image/jpg"
             />
 
             <img
               className="h-52 w-52 rounded-md sm:h-72 sm:w-72"
-              src="/img/PhotoMilanWithSunset.jpg"
+              src="/img/Milan_DeMeulemeester_Photo.jpg"
               alt="Photo of Milan De Meulemeester with the sunset"
             />
           </picture>
@@ -47,8 +47,8 @@ export default () => {
             </h1>
             <p className="mb-4 break-normal text-base text-customWhite sm:mb-0">
               Besides coding, I have a huge passion for reptiles, with turtles
-              and tortoises in particular. At the moment, I have two Greek
-              tortoises and two musk turtles. The passion started actually when
+              and tortoises in particular. At the moment, I have vife Greek
+              tortoises, two Marginated tortoises and two musk turtles. The passion started actually when
               I was little, we had a couple of yellow-bellied sliders. Those
               unfortunately passed away after a couple of years, but the
               interest in the animals stayed.
